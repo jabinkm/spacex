@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    z-index:2;
+    
+}
+.logo{
+    width: 210px;
+    height: 26px;
+    margin-top: 36px;
+    margin-left: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+nav li{
+    font-family: Regular,Arial,Verdana,sans-serif;
+    font-weight: 900;
+}
+.navbar{
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 40px;
+    display:flex;  
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item1{
+    margin-left: 150px;
+}
+.s1{
+    height: 100vh;
+    background-image: url(/spacex/bg1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.text-container{
+    color: rgb(255, 255, 255);
+    font-family: Regular,Arial,Verdana,sans-serif;
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+}
+.text-container button{
+    height: 54px;
+    width: 164px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 30px;
+}
+.text-container button:hover{
+    background-color: white;
+    color: black;
+}
+.text-container h4{
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.text-container h1{
+    font-size: 44px;
+    
+}
+.s2{
+    position: relative;
+    height: 100vh;
+    background-image: url(/spacex/bg2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.s3{
+    position: relative;
+    height: 100vh;
+    background-image: url(/spacex/bg3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.s4{
+    position: relative;
+    height: 100vh;
+    background-image: url(/spacex/bg4.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.s5{
+    position: relative;
+    height: 100vh;
+    background-image: url(/spacex/bg5.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social{
+    margin-left: 15%;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social p{
+    font-family: Regular,Arial,Verdana,sans-serif;
+    color: rgb(136, 136, 136);
+    font-size: 11px;
+}
+.social a{
+    font-family: Regular,Arial,Verdana,sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.social a:hover{
+    color: rgb(136, 136, 136);
+}
